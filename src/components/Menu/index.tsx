@@ -19,7 +19,6 @@ const Menu = (props) => {
 
   const activeMenuItem = getActiveMenuItem({ menuConfig: config(t), pathname })
   const activeSubMenuItem = getActiveSubMenuItem({ menuItem: activeMenuItem, pathname })
-
   return (
     <UikitMenu
       userMenu={<UserMenu />}
